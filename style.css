@@ -3,6 +3,7 @@ body{
 }
 
 h1{
+    text-align: center;
     font-family: sans-serif;
     color: #4a4a4a;
 }
@@ -14,4 +15,15 @@ h2{
 p{
     font-family: sans-serif;
     color: #4a4a4a;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+li{
+    text-align: left;
+    font-family: sans-serif;
+    color: white;
 }
