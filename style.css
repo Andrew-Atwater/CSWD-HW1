@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: #abace3;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -12,27 +12,31 @@ main{
 
 header{
     min-height: 50px;
-    background-color: #acaee3
+    background-color: white;
 }
 
 h1{
     text-align: center;
     font-family: sans-serif;
+    font-size: 48px;
     color: #4a4a4a;
 }
 
 h2{
     font-family: sans-serif;
+    font-size: 36px;
     color: #4a4a4a;
 }
 h3{
     font-family: sans-serif;
+    font-size: 24px;
     text-align: center;
     color: white;
 }
 p{
     font-family: sans-serif;
     color: #4a4a4a;
+    font-size: 20px;
 }
 footer{
     min-height: 50px;
@@ -45,4 +49,18 @@ li{
     text-align: left;
     font-family: sans-serif;
     color: white;
+}
+
+a{
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    color: inherit;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 9%;
+    height: 9%;
 }
