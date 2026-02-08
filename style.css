@@ -1,5 +1,18 @@
 body{
-    background-color: #a4d6db;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main{
+    flex: 1;
+}
+
+header{
+    min-height: 50px;
+    background-color: #acaee3
 }
 
 h1{
@@ -12,11 +25,17 @@ h2{
     font-family: sans-serif;
     color: #4a4a4a;
 }
+h3{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
 p{
     font-family: sans-serif;
     color: #4a4a4a;
 }
 footer{
+    min-height: 50px;
     text-align: center;
     background-color: black;
     color: white;
