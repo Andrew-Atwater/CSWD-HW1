@@ -1,3 +1,6 @@
+@charset "utf-8";
+/* CSS DOCUMENT */
+
 body{
     background-color: #abace3;
     display: flex;
@@ -65,65 +68,3 @@ img{
     height: 9%;
 }
 
-nav {
-	padding-top: 150px;
-}
-#maincontent {
-	margin-top: 80px;
-	padding-top: 10px;
-	padding-right: 0px;
-	padding-bottom: 10px;
-	padding-left: 0px;
-}
-ul {
-	padding:0;
-	margin:0;
-}
-nav ul {
-	list-style: none;
-	margin-bottom: 15px;
-	font-weight: bold;
-	font-size:20px;
-}
-nav ul li {
-	float: left;
-}
-nav ul li a {
-	display: block;
-	width:140px;
-	padding: 10px;
-	text-align:center;
-	text-decoration: none;
-	color: #fff;
-	border: 1px solid #618A37;
-	margin: 5px 0px;
-	border-radius: 8px;
-	-moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
-	-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
-	box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
-}
-nav ul a:link, nav ul a:visited {
-	background: rgba(255,255,255,0.2);
-}
-nav ul a:hover, nav ul a:active, nav ul a:focus {
-	background: rgba(255,255,255,0.4);
-}
-nav ul li:hover {
-	margin-top:-10px;
-}
-nav ul li {
-	float: left;
-	-webkit-transition-duration:.5s;
-	-webkit-transition-property:margin-top;
-	-webkit-transition-timing-function:ease-in-out;
-	-o-transition-duration:.5s;
-	-o-transition-property:margin-top;
-	-o-transition-timing-function:ease-in-out;
-	-moz-transition-duration:.5s;
-	-moz-transition-property:margin-top;
-	-moz-transition-timing-function:ease-in-out;
-	transition-duration:.5s;
-	transition-property:margin-top;
-	transition-timing-function:ease-in-out;
-}
