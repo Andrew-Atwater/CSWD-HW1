@@ -1,0 +1,11 @@
+Andrew Atwater - CSWD HW1 reflection
+
+The biggest challenges I faced during the development of this homework were definitely
+figuring out the CSS formatting for everything to make it look relatively decent. I have
+had experience with HTML in web scraping, so I had a decent idea as to how it worked, but
+was entirely new to CSS. At first, I had made a new style for every element, but then I
+realized I could use inheritance and make new styles for each "class" in a tag. I left
+the early stage CSS the way it was to show the change. The image resizing was also tough,
+and I always ended up with weirdly stretched or off-center images so I used ChatGPT to help
+a little bit with that as well as the actual site content, but other than that I made it my
+goal to do as little of the actual HTML and CSS with AI assistance as possible.
